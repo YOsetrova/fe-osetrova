@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table border-color ="1px black";  border-collapse="collapse"; style="width: 100%;" >
+    |<thead>
+        <tr>
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Company</th>     
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tom</td>
+            <td>Marvolo</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Depp</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+<!--block tag-->
+<h3>
+    User name
+</h3> 
+<form>
+    <div>
+        User name
+        <input id = "username" type = "text">
+    </div>
+        <h4>
+            password
+        </h4>
+    <div>
+        <label for = "pass">
+            User password
+        </label>
+        <input id = "pass" type = "password">
+    </div>
+    <h5>
+        Select tag
+    </h5>
+    <div>
+        <label for = "droplist">
+            User select 
+        </label>
+        <select id = "droplist">
+            <option value = "01">Користувачу подобається чорний колір</option> 
+            <option value = "02" >Користувачу подобається червоний колір</option>
+            <option value = "03" >Користувачу подобається жовтий колір</option>
+            <option  value = "04" >Користувачу подобається синій колір</option>
+        </select>
+    </div>
+    <h4>
+        Коментарі
+    </h4>
+<div>
+    <label for = "coment">
+        Коментар
+    </label>
+    <textarea id="coment" rows = "10" cols="20" placeholder="Коментар мінімум 10 слів"></textarea>
+</div>
+<h4>
+    Radio input Доставка
+</h4>
+<div>
+    <label for = "NP"> NP Delivery</label>
+    <input id="NP" name="Delivery" type="radio">
+</div>
+<div>
+    <label for = "Ukpost">Ukpost</label>
+<input id="Ukpost"  name="Delivery" type="radio">
+</div>
+<div>
+    <label for = "self">Заберу сам</label>
+<input id="self" name="Delivery" type="radio">
+</div>
+<h5>
+    Checkbox
+</h5>
+<div>
+    <label for="car"> Car </label>
+    <input id="car" name="vehicle1" type="checkbox">
+</div>
+<div>
+    <label for="train"> Train </label>
+    <input id="train" name="vehicle2" type="checkbox">
+</div>
+<div>
+    <label for="motobike"> Motobike </label>
+    <input id="motobike" name="vehicle3" type="checkbox">
+</div>
+<button>Кнопка що відправить форму</button>
+<input type="submit" value="Віправити форму">
+</form>
+<a href="#">Link</a>
+<button>Кнопка</button>
+<h1>
+    HOMEWORK
+</h1>
+<h3>
+    Button2
+</h3>
+<button>Click me</button>
+<input type = "button"    onclick ="alert" value="Click Me!">
+<h3>
+    Birthday
+</h3>
+<form>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+  </form>
+  <h3>
+    Your email
+  </h3>
+  <form>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+  </form>
+  <h3>
+    Quantity
+  </h3>
+  <form>
+    <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+  </form>
+</body>
+</html>
